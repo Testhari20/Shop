@@ -1,3 +1,4 @@
+//cart page
 import { cartItems } from "../data.js";
 
 export default function Cart() {
