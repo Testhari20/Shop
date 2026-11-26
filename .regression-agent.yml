@@ -1,0 +1,7 @@
+start_command: "npm install && npm run build && npm run preview"
+ready_command: "curl -sf http://localhost:4173"
+
+browser:
+  base_url: "http://localhost:4173"
+  visual_tolerance: 0.002
+  explore_max_pages: 5
