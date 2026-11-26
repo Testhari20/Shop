@@ -1,5 +1,6 @@
 start_command: "npm install && npm run build && npm run preview"
-ready_command: "curl -sf http://localhost:4173"
+ready_command: 'node -e "require(\"http\").get(\"http://localhost:4173\",()=>process.exit(0)).on(\"error\",()=>process.exit(1))"'
+start_timeout_seconds: 240
 
 browser:
   base_url: "http://localhost:4173"
