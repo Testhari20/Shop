@@ -92,7 +92,7 @@ body {
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 .cart-table th, .cart-table td { padding: 14px; text-align: left; }
-.cart-table thead { background: #e5e7eb; }
+.cart-table thead { background: #98FB98; }
 .cart-table tbody tr { border-top: 1px solid #e5e7eb; }
 .cart-total {
   display: flex;
